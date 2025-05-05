@@ -55,22 +55,23 @@
         <!-- class "mdl-textfield__error" -->
         <span class="mdl-textfield__error">Input is not a number!</span>
       </div>
-      <br />
-      <!-- Numeric Textfield -->
-      Enter the second number
-      <br />
-      <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="numbertwo" />
-        <label class="mdl-textfield__label" for="numbertwo">enter number...</label>
-        <!-- class "mdl-textfield__error" -->
-        <span class="mdl-textfield__error">Input is not a number!</span>
-      </div>
-      <br />
-      <!-- Accent-colored raised button with ripple -->
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-        type="submit">
-        Calculate
-      </button>
+      <form action="answer.php" method="get">
+        <br />
+        <!-- Numeric Textfield -->
+        Enter the second number
+        <br />
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="numbertwo" />
+          <label class="mdl-textfield__label" for="numbertwo">enter number...</label>
+          <!-- class "mdl-textfield__error" -->
+          <span class="mdl-textfield__error">Input is not a number!</span>
+        </div>
+        <br />
+        <!-- Accent-colored raised button with ripple -->
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          type="submit">
+          Calculate
+        </button>
       </form>
       <br />
       <div class="page-content-answer">

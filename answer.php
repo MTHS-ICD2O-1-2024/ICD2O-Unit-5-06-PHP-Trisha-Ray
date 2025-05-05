@@ -59,7 +59,7 @@
             $firstNumber = $firstNumber - 1;
           }
           // output
-          echo "If the first numbers are " . $actualFirstNumber . "and " . $secondNumber;
+          echo "If the first numbers are " . $actualFirstNumber . " and " . $secondNumber;
           echo "The number is: " . $answer;
           ?>
         </div>
