@@ -51,6 +51,7 @@
           $firstNumber = $_GET["numberone"];
           $secondNumber = $_GET["numbertwo"];
           $answer = 0;
+          $actualFirstNumber = $firstNumber;
 
           // process
           while ($firstNumber >= 1) {
@@ -58,7 +59,7 @@
             $firstNumber = $firstNumber - 1;
           }
           // output
-          echo "If the first numbers are " . $firstNumber . "and " . $secondNumber;
+          echo "If the first numbers are " . $actualFirstNumber . "and " . $secondNumber;
           echo "The number is: " . $answer;
           ?>
         </div>
