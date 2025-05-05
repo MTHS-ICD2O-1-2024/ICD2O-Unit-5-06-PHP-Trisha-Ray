@@ -58,7 +58,7 @@
             $firstNumber = $firstNumber - 1;
           }
           // output
-          echo "If the first number is " . $firstNumber . "and the second number is " . $secondNumber;
+          echo "If the first numbers are " . $firstNumber . "and " . $secondNumber;
           echo "The number is: " . $answer;
           ?>
         </div>
