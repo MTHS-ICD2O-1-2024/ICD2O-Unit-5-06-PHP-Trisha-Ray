@@ -45,23 +45,23 @@
       <div class="right-image">
         <img src="./images/loop.png" alt="loops" />
       </div>
-      <br />
-      <!-- Numeric Textfield -->
-      Enter the first number
-      <br />
-      <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="numberone" />
-        <label class="mdl-textfield__label" for="numberone">enter number...</label>
-        <!-- class "mdl-textfield__error" -->
-        <span class="mdl-textfield__error">Input is not a number!</span>
-      </div>
       <form action="answer.php" method="get">
+        <br />
+        <!-- Numeric Textfield -->
+        Enter the first number
+        <br />
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="numberone" name="numberone" />
+          <label class="mdl-textfield__label" for="numberone">enter number...</label>
+          <!-- class "mdl-textfield__error" -->
+          <span class="mdl-textfield__error">Input is not a number!</span>
+        </div>
         <br />
         <!-- Numeric Textfield -->
         Enter the second number
         <br />
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="numbertwo" />
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="numbertwo" name="numbertwo" />
           <label class="mdl-textfield__label" for="numbertwo">enter number...</label>
           <!-- class "mdl-textfield__error" -->
           <span class="mdl-textfield__error">Input is not a number!</span>
